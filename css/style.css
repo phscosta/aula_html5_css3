@@ -1,0 +1,33 @@
+body {
+    background-color: aquamarine;
+    /*Define a margem à esquerda e a direita entre os elementos*/
+    margin-left: 30px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+header {
+    /*Define a margem acima do elemento*/
+    margin-top: 70px;
+}
+
+h1,h2 {
+    color: red;
+    /*Define o tipo da fonte*/
+    font-family: sans-serif;
+}
+
+p {
+    /*Define o tamanho da fonte*/
+    font-size: 18px;
+}
+
+img,
+.img_parceiro {
+    /*Define a margem abaixo do elemento*/
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-bottom: 30px;
+}

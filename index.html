@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--Linguagem da página-->
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <!--Título da página-->
+        <title>Página Inicial</title>
+
+        <!--Essa tag faz o link ou comunicação entre o HTML e o CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+
+    <!--Corpo da Página-->
+    <body>
+        <!--Menu de navegação-->
+        <nav class="menu">
+            <p>Menu de Navegação</p>
+            <ul>
+                <!--A tag a serve para a utilização de hiperlinks, podendo levar a outras páginas ou sites-->
+                <!--A href é um atributo onde você determina a resferência de onde você vai-->
+                <!--O parametro # antes de serviços indica o id da seção definido abaixo-->
+                <li>
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li>
+                    <a href="#clientes">Clientes</a>
+                </li>
+                <li>
+                    <a href="#parceiros">Parceiros</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!--Cabeçalho da página-->
+        <header>
+            <h1>Pedro Costa</h1>
+            <!--A tag p significa um parágrafo-->
+            <p>Página em desenvolvimento</p>
+        </header>
+
+        <!--Separa seções de conteúdo-->
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>Oferecemos os melhores serviços</p>
+
+            <!--Tag div utilizada na divisão e organização do código-->
+            <div>
+                <!--Adiciona imagens à página web-->
+                <img src="https://www.ocafezinho.com/wp-content/uploads/2018/11/materia-10-habilidades-futuro2-compressed.jpg" width="300px">
+            </div>
+            <div>
+                <img src="https://cdn.diferenca.com/imagens/pessoas-no-trabalho-cke.jpg" width="300px">
+            </div>
+
+        </section>
+
+        <section id="clientes">
+            <h2>Clientes</h2>
+            <p>Nossos adquirem satisfação com nossos serviços</p>
+
+            <div>
+                <img src="https://estudevendas.com.br/wp-content/uploads/2018/10/como-abordar-um-cliente.png" width="300px">
+            </div>
+
+        </section>
+
+        <section id="parceiros">
+            <h2>Parceiros</h2>
+            <p>Nossos parceiros são os melhores do mundo</p>
+
+            <div>
+                <!--O atributo target:"_blank" faz com que o usuário abra um link externo no seu site em outra aba se
+                mantendo em sua página-->
+                <a href="https://www.google.com.br/" target="_blank">
+                    <!--O parametro class identifica um elemento específico no codigo para modificações apenas desse elemento no css-->
+                    <img src="https://cakeerp.com/wp-content/uploads/2017/04/11.06-Como-manter-um-relacionamento-duradouro-com-seu-cliente-01-1080x675.jpg" width="300px" class="img_parceiro">
+                </a>
+            </div>
+
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Nossas redes sociais estão disponíveis para você!</p>
+
+            <div>
+                <!--mailto: é utilizado para referenciar um email no link-->
+                <p><a href="mailto:ph.siqueira.costa@gmail.com">ph.siqueira.costa@gmail.com</a></p>
+            </div>
+
+            <div>
+                <!--tel é utilizado para referenciar um número de telefone no link-->
+                <p><a href="tel:9999999999">(99) 9999-9999</a></p>
+            </div>
+
+        </section>
+
+        <!--Rodapé da página-->
+        <footer>
+            <p>Desenvolvido por Pedro Costa</p>
+        </footer>
+
+    </body>
+
+</html>
